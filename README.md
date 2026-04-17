@@ -136,7 +136,7 @@ sudo apt install g++
 
 ### Compile
 ```bash
-g++ -O2 heuristicas_bpc4_comentado.cpp -o bpc -lm
+g++ -O2 vns_heur_bpc4.cpp -o bpc -lm
 ```
 
 ### Run
@@ -158,7 +158,7 @@ Example:
 
 ## 📦 Benchmark Instances
 
-A ZIP archive (`BPCC_Instances.zip`) containing dozens of benchmark instances is included in this repository. These instances were derived from the augmented Non-IRUP (ANI) and augmented IRUP (AI) BPP benchmark sets proposed by Delorme et al. (2016), adapted for the BPCC with 6 and 8 product categories and varying bin capacity factors (100%, 120%, 150%, 200%).
+A ZIP archive (`insts.zip`) containing dozens of benchmark instances is included in this repository. These instances were derived from the augmented Non-IRUP (ANI) and augmented IRUP (AI) BPP benchmark sets proposed by Delorme et al. (2016), adapted for the BPCC with 6 and 8 product categories and varying bin capacity factors (100%, 120%, 150%, 200%).
 
 Instance naming follows the convention `P-nXX-kY`, where `XX` is the number of nodes (stores) and `Y` is a reference vehicle count from the original VRP dataset.
 
@@ -168,8 +168,10 @@ Instance naming follows the convention `P-nXX-kY`, where `XX` is the number of n
 
 ```
 VNS  Nome_Instancia P-n23-k8  Cap. 40  N_Itens 113  N_Bins_Inic 22 N_Bins_VNS 19  Itens Alocados: 113  Tempo 2
-  Ks: 1 45 12 8  Ks: 2 30 7 5  ...
-  Ls: 1 120 34  Ls: 2 98 21  ...
+  Ks: 1 45 12 8
+  Ks: 2 30 7 5  
+  Ls: 1 120 34
+  Ls: 2 98 21  
   ultima_it_melhoria 67
 ```
 
