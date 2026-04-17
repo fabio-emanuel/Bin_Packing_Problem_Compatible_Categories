@@ -19,19 +19,6 @@ The article PDF is included in this repository for reference.
 
 ---
 
-## 🗂️ Repository Contents
-
-```
-.
-├── heuristicas_bpc4_comentado.cpp   # Fully commented C++ source code
-├── VNS_bptc-main-1.pdf              # Reference article (PDF)
-├── BPCC_Instances.zip               # Set of benchmark instances for testing
-├── P-n23-k8.txt                     # Example instance file
-├── nao_confl.txt                    # Example conflict/compatibility file
-└── README.md
-```
-
----
 
 ## 🧩 Problem Description
 
